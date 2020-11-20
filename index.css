@@ -1,0 +1,15 @@
+body {
+    color: blueviolet;
+}
+.popup{
+    display: none;
+
+}
+
+.popup_opened {
+    display: block !important;
+    width: 100vw;
+    height: 100vh;
+    z-index: 10;
+    position: absolute;
+}
